@@ -6,7 +6,7 @@ class Exercice4 {
         int a[] = {2,5,3,1,4,-7,6};
         int bigDiff = 0;
         
-        for (int i=0; i< a.length; i++) {
+        for (int i=0; i<(a.length-1); i++) {
             int diff = Math.abs(a[i]-a[i+1]);
             if (diff>bigDiff) {
                 bigDiff = diff;
